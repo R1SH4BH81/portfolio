@@ -4,7 +4,8 @@
     margin-bottom: 6rem;
   }
   .about-containers {
-    flex-wrap: wrap;
+    display: flex;
+  flex-direction: column; 
   }
 }
 
@@ -62,7 +63,8 @@
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
-    flex-wrap: wrap;
+    display: flex;
+  flex-direction: column; 
   }
   .contact-info-container {
     margin: 0;
