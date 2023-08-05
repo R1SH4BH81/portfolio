@@ -35,7 +35,20 @@ const photoUrls = [
   "https://www.coolgenerator.com/Data/Textdesign/202308/870f6e8946b5a8c4b1e79620af65232e.png",
   "https://www.coolgenerator.com/Data/Textdesign/202308/ac988f296a074feebf6604a676c5d79c.png",
   "https://www.coolgenerator.com/Data/Textdesign/202308/2638d0b212740641f4b31b42312eb31e.png",
-  "https://www.coolgenerator.com/Data/Textdesign/202308/85f0c5211187ec83d16707ec0e50354f.png"
+  "https://www.coolgenerator.com/Data/Textdesign/202308/85f0c5211187ec83d16707ec0e50354f.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/8072d78ba9b07191f031c10ec3677882.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/4339bad4e79d5f26d9ffcea9b14da41a.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/127b5269ae363312796c63a90c4bf989.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/bf7b16d0340c4ee11b1422cc243fdc24.png",
+   "https://www.coolgenerator.com/Data/Textdesign/202308/bd8da784dd4797584031f923385d5d61.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/491a76c57c6343fba5c58e7e4d8b7183.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/fa68c4601fe33752c3d09f10dd1b4c5f.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/9f4339144274f498d8edce1d542d27ec.png",
+   "https://www.coolgenerator.com/Data/Textdesign/202308/d0df97c9dc1948656f9f5fbfb9d73890.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/8f65dca0542ca00a2a835b49d442b46c.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/93115c3152260761402b3708cca17287.png",
+  "https://www.coolgenerator.com/Data/Textdesign/202308/a12a1ee125f49af58493ce2657d8ed7c.png"
+  
   
 ];
 
@@ -57,7 +70,7 @@ function changePhoto() {
   currentPhotoIndex++;
 
   // Show the next photo after a delay (0.1 seconds)
-  setTimeout(changePhoto, 100);
+  setTimeout(changePhoto, 300);
 }
 
 // Start changing photos
