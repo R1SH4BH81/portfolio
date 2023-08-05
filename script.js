@@ -44,8 +44,8 @@ const photoUrls = [
   "https://www.coolgenerator.com/Data/Textdesign/202308/491a76c57c6343fba5c58e7e4d8b7183.png",
   "https://www.coolgenerator.com/Data/Textdesign/202308/fa68c4601fe33752c3d09f10dd1b4c5f.png",
   "https://www.coolgenerator.com/Data/Textdesign/202308/9f4339144274f498d8edce1d542d27ec.png",
-   "https://www.coolgenerator.com/Data/Textdesign/202308/d0df97c9dc1948656f9f5fbfb9d73890.png",
-  "https://www.coolgenerator.com/Data/Textdesign/202308/8f65dca0542ca00a2a835b49d442b46c.png",
+
+ 
   "https://www.coolgenerator.com/Data/Textdesign/202308/93115c3152260761402b3708cca17287.png",
   "https://www.coolgenerator.com/Data/Textdesign/202308/a12a1ee125f49af58493ce2657d8ed7c.png"
   
@@ -69,8 +69,8 @@ function changePhoto() {
 
   currentPhotoIndex++;
 
-  // Show the next photo after a delay (0.1 seconds)
-  setTimeout(changePhoto, 300);
+
+  setTimeout(changePhoto, 350);
 }
 
 // Start changing photos
