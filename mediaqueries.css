@@ -60,11 +60,12 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers,
+  .about-containers{
+    flex-direction: column; }
   .contact-info-upper-container,
   .btn-container {
     display: flex;
-  flex-direction: column; 
+  
   }
   .contact-info-container {
     margin: 0;
