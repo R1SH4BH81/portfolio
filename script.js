@@ -76,3 +76,8 @@ function changePhoto() {
 // Start changing photos
 changePhoto();
 
+document.addEventListener("mousemove", (e) => {
+  const cursor = document.querySelector(".circle-cursor");
+  cursor.style.left = e.pageX + "px";
+  cursor.style.top = e.pageY + "px";
+});
