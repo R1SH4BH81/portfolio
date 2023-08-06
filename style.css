@@ -5,10 +5,53 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: none;
 }
+.circle-cursor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+ 
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 5px rgba(0, 255, 170, 0.8);
+  
+}
+
+.circle-cursor::after {
+  content: "+"; /* Set the content to a plus sign */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px; /* Adjust the size of the plus sign as needed */
+  height: 15px;
+  font-size: 22px; /* Set the font size to control the plus sign's size */
+  
+  text-align: center;
+  line-height: 15px; /* Vertically center the plus sign */
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: colorChange 2s infinite alternate; 
+  
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgb(255, 0, 0); /* Start with red */
+  }
+  50% {
+    color: rgb(0, 255, 0); /* Transition to green */
+  }
+  100% {
+    color: rgb(0, 0, 255); /* End with blue */
+  }
+}
+
 
 body {
   font-family: "Poppins", sans-serif;
+  cursor: none;
   
 }
 
