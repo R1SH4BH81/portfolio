@@ -242,6 +242,8 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  font-family: "calibri";
+  font-style: italic;
 }
 
 #socials-container {
@@ -370,6 +372,8 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  font-family: "calibri";
+  font-style: italic;
 }
 
 .experience-details-container {
@@ -418,6 +422,8 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+  font-family: "calibri";
+  font-style: italic;
 }
 
 .project-btn {
