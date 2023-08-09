@@ -42,11 +42,11 @@
     transform: translate(-50%, -50%) rotate(0deg);/* Start with red */
   }
   50% {
-    color: rgb(0, 255, 0); /* Transition to green */
+    color: rgb(0, 255, 0) rotate(360deg); /* Transition to green */
   }
   100% {
     color: rgb(0, 0, 255); 
-    transform: translate(-50%, -50%) rotate(360deg);/* End with blue */
+    transform: translate(-50%, -50%) rotate(0deg);/* End with blue */
   }
 }
 
