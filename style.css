@@ -50,6 +50,22 @@
   }
 }
 
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+}
+
+/* For Firefox */
+/* Note: Firefox only supports styling the thumb, not the track */
+/* You can use the same ::-webkit-scrollbar styles for Firefox */
+* {
+  scrollbar-color: red transparent; /* Color for thumb and track */
+  scrollbar-width: thin; /* Adjust the width as needed */
+}
 
 body {
   font-family: "Poppins", sans-serif;
