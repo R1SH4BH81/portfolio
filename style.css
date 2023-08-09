@@ -38,13 +38,15 @@
 
 @keyframes colorChange {
   0% {
-    color: rgb(255, 0, 0); /* Start with red */
+    color: rgb(255, 0, 0);
+    transform: translate(-50%, -50%) rotate(45deg);/* Start with red */
   }
   50% {
     color: rgb(0, 255, 0); /* Transition to green */
   }
   100% {
-    color: rgb(0, 0, 255); /* End with blue */
+    color: rgb(0, 0, 255); 
+    transform: translate(-50%, -50%) rotate(405deg);/* End with blue */
   }
 }
 
