@@ -21,7 +21,7 @@
 }
 
 .circle-cursor::after {
-  content: "*"; /* Set the content to a plus sign */
+  content:  "•";; /* Set the content to a plus sign */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,14 +39,14 @@
 @keyframes colorChange {
   0% {
     color: rgb(255, 0, 0);
-    transform: translate(-50%, -50%) rotate(0deg);/* Start with red */
+    transform: translate(-50%, -50%) ;/* Start with red */
   }
   50% {
-    color: rgb(0, 255, 0) rotate(360deg); /* Transition to green */
+    color: rgb(0, 255, 0) ; /* Transition to green */
   }
   100% {
     color: rgb(0, 0, 255); 
-    transform: translate(-50%, -50%) rotate(0deg);/* End with blue */
+    transform: translate(-50%, -50%) ;/* End with blue */
   }
 }
 
