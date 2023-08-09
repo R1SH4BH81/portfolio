@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="manifest" href="/site.webmanifest">
+     <style>
+      .circle-frame {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        top: 10%; /* Add this to control position */
+    left: 70%; /* Move 50% from the left edge */
+    transform: translateX(-50%); 
+      }
+    
+      .circle-frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
     
     <!-- Other meta tags, CSS, etc. go here -->
 
@@ -81,7 +99,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="profile picture" />
+       <img src="./assets/vid.gif" alt="profile picture" id="about" /></div>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
