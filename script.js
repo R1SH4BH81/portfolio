@@ -80,4 +80,14 @@ document.addEventListener("mousemove", (e) => {
   const cursor = document.querySelector(".circle-cursor");
   cursor.style.left = e.pageX + "px";
   cursor.style.top = e.pageY + "px";
+}); 
+document.addEventListener("DOMContentLoaded", function () {
+  const videoElement = document.getElementById("video-element");
+  const websiteContent = document.getElementById("website-content");
+
+  // Show the website content after the video ends
+  videoElement.addEventListener("ended", function () {
+    videoElement.style.display = "none"; // Hide the video element
+    websiteContent.classList.remove("hidden"); // Show the website content
+  });
 });
