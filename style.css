@@ -7,6 +7,9 @@
   padding: 0;
   cursor: none;
 }
+.blur {
+  filter: blur(50px); /* Adjust the blur amount as needed */
+}
 .circle-cursor {
   position: absolute;
   width: 20px;
