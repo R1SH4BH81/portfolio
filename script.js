@@ -81,14 +81,15 @@ document.addEventListener("mousemove", (e) => {
   cursor.style.left = e.pageX + "px";
   cursor.style.top = e.pageY + "px";
 }); 
+
+
 document.addEventListener("DOMContentLoaded", function () {
-  const loader = document.getElementById("loader");
+  const videoElement = document.getElementById("video-element");
   const websiteContent = document.getElementById("website-content");
 
-  // Simulate a loader (you can replace this with your actual loader logic)
-  setTimeout(function () {
-    loader.style.display = "none"; // Hide the loader
-    websiteContent.classList.remove("blur"); // Remove the blur effect
-  }, 3000); // Assuming the loader takes 3 seconds to complete
+  // Show the website content after the video ends
+  videoElement.addEventListener("ended", function () {
+    videoElement.style.display = "none"; // Hide the video element
+    websiteContent.classList.remove("hidden"); // Show the website content
+  });
 });
-
