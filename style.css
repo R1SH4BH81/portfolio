@@ -36,6 +36,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background-image: url("https://cdn.dribbble.com/users/824356/screenshots/2440492/lukas_pink_loading.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .circle-cursor::after {
   content:  "•";; /* Set the content to a plus sign */
