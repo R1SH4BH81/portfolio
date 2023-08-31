@@ -93,3 +93,25 @@ document.addEventListener("DOMContentLoaded", function () {
     websiteContent.classList.remove("hidden"); // Show the website content
   });
 });
+
+window.addEventListener('load', function () {
+  const progressBar = document.querySelector('.progress-bar');
+  const progressText = document.querySelector('.progress-text');
+  let loadedPercentage = 0;
+
+  function updateProgressBar() {
+    progressBar.style.width = `${loadedPercentage}%`;
+    progressText.textContent = `${loadedPercentage}%`;
+  }
+
+  const interval = setInterval(function () {
+    loadedPercentage += 1;
+    updateProgressBar();
+
+    if (loadedPercentage >= 100) {
+      clearInterval(interval);
+      document.querySelector('.loader').style.display = 'none';
+      document.querySelector('.content').style.display = 'block';
+    }
+  }, 30);
+});
